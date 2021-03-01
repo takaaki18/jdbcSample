@@ -1,38 +1,39 @@
 public class DtoSample {
-    private int id;
-    private String name;
-    private String address;
-    private String phone;
+	private int employeeId;
+	private String employeeName;
+	private int departmentId;
+	private String phone;
 
-    public int getId() {
-        return id;
-    }
+	public int getEmployeeId() {
+		return employeeId;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getEmployeeName() {
+		return employeeName;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
+	}
 
-    public String getAddress() {
-        return address;
-    }
+	public int getDepartmentId() {
+		return departmentId;
+	}
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+	public void setDepartmentId(int departmentId) {
+		this.departmentId = departmentId;
+	}
 
-    public String getPhone() {
-        return phone;
-    }
+	public String getPhone() {
+		return phone;
+	}
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 }
