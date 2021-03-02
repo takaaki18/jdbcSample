@@ -11,7 +11,6 @@ public class Main {
 			System.out.println(str.getDepartmentId());
 			System.out.println(str.getPhone());
 			System.out.println("******************");
-			System.out.println("******************");
 		}
 	}
 }
